@@ -234,7 +234,7 @@
         <mxCell id="aTr4U8p7wG6k4kJo5uvb-17" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;container=0;labelBackgroundColor=none;" value="+void Interact&lt;div&gt;+void OnTriggerEnter2D&lt;/div&gt;&lt;div&gt;+void OnTriggerExit2D&lt;/div&gt;" vertex="1">
           <mxGeometry height="62" width="200" x="627" y="478" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-70" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;" target="3DnboHSC4T8BVolXsLme-16">
+        <mxCell id="3DnboHSC4T8BVolXsLme-70" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" target="3DnboHSC4T8BVolXsLme-16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="80" y="-370" />
@@ -266,7 +266,7 @@
         <mxCell id="3DnboHSC4T8BVolXsLme-16" parent="3DnboHSC4T8BVolXsLme-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;div&gt;- void Awake()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;+void StartDialogue(DialoguesObject dialogueObject)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+void DisplayNextDialogueLine()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+IEnumerator TypeSentence(DialogueLine dialogueLine)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-void ShowChoices()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-void OnChoiceSelected(int choiceIndex)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+void EndDialogue()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-void Update()&lt;/div&gt;" vertex="1">
           <mxGeometry height="238" width="320" y="422" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-69" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;" target="3DnboHSC4T8BVolXsLme-24">
+        <mxCell id="3DnboHSC4T8BVolXsLme-69" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" target="3DnboHSC4T8BVolXsLme-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-550" y="-340" />
@@ -310,7 +310,7 @@
         <mxCell id="3DnboHSC4T8BVolXsLme-28" parent="3DnboHSC4T8BVolXsLme-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+ method(type): type" vertex="1">
           <mxGeometry height="26" width="210" y="118" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-71" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" target="3DnboHSC4T8BVolXsLme-24">
+        <mxCell id="3DnboHSC4T8BVolXsLme-71" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" target="3DnboHSC4T8BVolXsLme-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-235" y="-380" />
@@ -324,7 +324,7 @@
         <mxCell id="3DnboHSC4T8BVolXsLme-30" parent="3DnboHSC4T8BVolXsLme-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+ List&amp;lt;StoryFlag&amp;gt; flags;" vertex="1">
           <mxGeometry height="40" width="210" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-60" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=openThin;endFill=0;dashed=1;" target="3DnboHSC4T8BVolXsLme-40">
+        <mxCell id="3DnboHSC4T8BVolXsLme-60" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=openThin;endFill=0;dashed=1;labelBackgroundColor=none;fontColor=default;" target="3DnboHSC4T8BVolXsLme-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-35" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;[Serializable]&lt;/span&gt;&lt;div&gt;StoryAction&lt;/div&gt;" vertex="1">
@@ -339,7 +339,7 @@
         <mxCell id="3DnboHSC4T8BVolXsLme-38" parent="3DnboHSC4T8BVolXsLme-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+ void ExecuteAction(List&amp;lt;StoryFlag&amp;gt; flags)" vertex="1">
           <mxGeometry height="32" width="270" y="138" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-62" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" target="3DnboHSC4T8BVolXsLme-25">
+        <mxCell id="3DnboHSC4T8BVolXsLme-62" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" target="3DnboHSC4T8BVolXsLme-25">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-1390" y="-838" />
@@ -364,10 +364,10 @@
         <mxCell id="3DnboHSC4T8BVolXsLme-46" parent="3DnboHSC4T8BVolXsLme-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+ string name&amp;nbsp;&lt;div&gt;+&amp;nbsp;Sprite icon&lt;/div&gt;&lt;div&gt;+&amp;nbsp;Sprite icon2&lt;/div&gt;" vertex="1">
           <mxGeometry height="56" width="150" y="44" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-56" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=11;strokeWidth=3;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;" target="3DnboHSC4T8BVolXsLme-49">
+        <mxCell id="3DnboHSC4T8BVolXsLme-56" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=11;strokeWidth=3;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;labelBackgroundColor=none;fontColor=default;" target="3DnboHSC4T8BVolXsLme-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-64" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;dashed=1;" target="3DnboHSC4T8BVolXsLme-43">
+        <mxCell id="3DnboHSC4T8BVolXsLme-64" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;dashed=1;labelBackgroundColor=none;fontColor=default;" target="3DnboHSC4T8BVolXsLme-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-47" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;[Serializable]&lt;/span&gt;&lt;div&gt;DialogueLine&lt;/div&gt;" vertex="1">
@@ -376,10 +376,10 @@
         <mxCell id="3DnboHSC4T8BVolXsLme-48" parent="3DnboHSC4T8BVolXsLme-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+ DialogueSide side&lt;div&gt;+&amp;nbsp;DialogueCharacter character&lt;/div&gt;&lt;div&gt;+&amp;nbsp;string line&lt;/div&gt;&lt;div&gt;+&amp;nbsp;bool hasChoices&lt;/div&gt;&lt;div&gt;+ List&amp;lt;DialogueChoice&amp;gt; choices&lt;/div&gt;" vertex="1">
           <mxGeometry height="86" width="200" y="44" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-58" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" target="3DnboHSC4T8BVolXsLme-53">
+        <mxCell id="3DnboHSC4T8BVolXsLme-58" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" target="3DnboHSC4T8BVolXsLme-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-59" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" target="3DnboHSC4T8BVolXsLme-25">
+        <mxCell id="3DnboHSC4T8BVolXsLme-59" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" target="3DnboHSC4T8BVolXsLme-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-49" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;[Serializable]&lt;/span&gt;&lt;div&gt;DialogueChoice&lt;/div&gt;" vertex="1">
@@ -394,7 +394,7 @@
         <mxCell id="3DnboHSC4T8BVolXsLme-52" parent="3DnboHSC4T8BVolXsLme-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;div&gt;+&amp;nbsp;List&amp;lt;DialogueLine&amp;gt; dialogueLines&lt;/div&gt;" vertex="1">
           <mxGeometry height="36" width="230" y="44" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-55" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=3;endSize=11;startArrow=diamondThin;startFill=1;" target="3DnboHSC4T8BVolXsLme-47">
+        <mxCell id="3DnboHSC4T8BVolXsLme-55" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=3;endSize=11;startArrow=diamondThin;startFill=1;labelBackgroundColor=none;fontColor=default;" target="3DnboHSC4T8BVolXsLme-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-53" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;CreateAssetMenu&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;div&gt;DialoguesObject&lt;/div&gt;" vertex="1">
@@ -403,7 +403,7 @@
         <mxCell id="3DnboHSC4T8BVolXsLme-54" parent="3DnboHSC4T8BVolXsLme-53" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+&amp;nbsp;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;List&amp;lt;DialogueLine&amp;gt; lines&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="26" width="200" y="44" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-57" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=10;strokeWidth=3;" target="3DnboHSC4T8BVolXsLme-45">
+        <mxCell id="3DnboHSC4T8BVolXsLme-57" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=10;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" target="3DnboHSC4T8BVolXsLme-45">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-945" y="-558" />
@@ -411,7 +411,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-63" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;dashed=1;" target="3DnboHSC4T8BVolXsLme-35">
+        <mxCell id="3DnboHSC4T8BVolXsLme-63" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;dashed=1;labelBackgroundColor=none;fontColor=default;" target="3DnboHSC4T8BVolXsLme-35">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-980" y="-748" />
@@ -419,7 +419,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-66" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;" target="3DnboHSC4T8BVolXsLme-51">
+        <mxCell id="3DnboHSC4T8BVolXsLme-66" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" target="3DnboHSC4T8BVolXsLme-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
