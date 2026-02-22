@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.1">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1569" dy="1852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1343" dy="1643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -235,7 +235,7 @@
           <mxGeometry height="62" width="200" x="627" y="478" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="DialogueData" vertex="1">
-          <mxGeometry height="134" width="210" x="-40" y="-940" as="geometry" />
+          <mxGeometry height="134" width="210" x="-190" y="-960" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-6" parent="3DnboHSC4T8BVolXsLme-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+public&amp;nbsp;" vertex="1">
           <mxGeometry height="74" width="210" y="26" as="geometry" />
@@ -247,7 +247,7 @@
           <mxGeometry height="26" width="210" y="108" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-9" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="DialogueTrigger" vertex="1">
-          <mxGeometry height="134" width="210" x="-40" y="-741" as="geometry" />
+          <mxGeometry height="134" width="210" x="-190" y="-761" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-10" parent="3DnboHSC4T8BVolXsLme-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+public" vertex="1">
           <mxGeometry height="74" width="210" y="26" as="geometry" />
@@ -271,7 +271,7 @@
           <mxGeometry height="238" width="320" y="422" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-17" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="EventDialogueTrigger" vertex="1">
-          <mxGeometry height="134" width="210" x="-40" y="-380" as="geometry" />
+          <mxGeometry height="134" width="210" x="-190" y="-400" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-18" parent="3DnboHSC4T8BVolXsLme-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+public" vertex="1">
           <mxGeometry height="74" width="210" y="26" as="geometry" />
@@ -283,19 +283,19 @@
           <mxGeometry height="26" width="210" y="108" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-21" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=43;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&amp;nbsp;&lt;div&gt;EventManager&lt;/div&gt;" vertex="1">
-          <mxGeometry height="151" width="210" x="380" y="-950" as="geometry" />
+          <mxGeometry height="700" width="300" x="220" y="-950" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-22" parent="3DnboHSC4T8BVolXsLme-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+List&amp;lt;StoryFlag&amp;gt; storyFlags" vertex="1">
-          <mxGeometry height="74" width="210" y="43" as="geometry" />
+        <mxCell id="3DnboHSC4T8BVolXsLme-22" parent="3DnboHSC4T8BVolXsLme-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+List&amp;lt;StoryFlag&amp;gt; storyFlags&lt;div&gt;+List&amp;lt;EventData&amp;gt; completedEvents&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+List&amp;lt;EventData&amp;gt; allEvents&lt;/div&gt;" vertex="1">
+          <mxGeometry height="77" width="300" y="43" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-23" parent="3DnboHSC4T8BVolXsLme-21" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" value="" vertex="1">
-          <mxGeometry height="8" width="210" y="117" as="geometry" />
+          <mxGeometry height="8" width="300" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-24" parent="3DnboHSC4T8BVolXsLme-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+ method(type): type" vertex="1">
-          <mxGeometry height="26" width="210" y="125" as="geometry" />
+        <mxCell id="3DnboHSC4T8BVolXsLme-24" parent="3DnboHSC4T8BVolXsLme-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="-&amp;nbsp;void Awake()&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-void InitializeDefaultFlags()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+bool CanTriggerEvent(EventData eventData)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-void TriggerEvent(EventData eventData)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-void CheckForNewEvents()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;List&amp;lt;EventData&amp;gt; GetAvailableEvents()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+StoryFlag GetFlag(string flagName)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+void SetFlag(string flagName, bool value)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;void SetFlag(string flagName, int value)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;void SetFlag(string flagName, float value)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+void SetFlag(string flagName, string value)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+void SaveStoryState()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+void LoadStoryState()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- flags : List&amp;lt;StoryFlag&amp;gt;&amp;nbsp; [Serializable]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="572" width="300" y="128" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-25" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;div&gt;EventData&lt;/div&gt;" vertex="1">
-          <mxGeometry height="144" width="210" x="-50" y="-216" as="geometry" />
+          <mxGeometry height="144" width="210" x="-200" y="-236" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-26" parent="3DnboHSC4T8BVolXsLme-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+public&amp;nbsp;" vertex="1">
           <mxGeometry height="74" width="210" y="36" as="geometry" />
