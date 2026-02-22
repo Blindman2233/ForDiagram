@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.1">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2374" dy="2592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1987" dy="2237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -234,18 +234,6 @@
         <mxCell id="aTr4U8p7wG6k4kJo5uvb-17" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;container=0;labelBackgroundColor=none;" value="+void Interact&lt;div&gt;+void OnTriggerEnter2D&lt;/div&gt;&lt;div&gt;+void OnTriggerExit2D&lt;/div&gt;" vertex="1">
           <mxGeometry height="62" width="200" x="627" y="478" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;[Serializable]&lt;/span&gt;&lt;div&gt;DialogueData&lt;/div&gt;" vertex="1">
-          <mxGeometry height="128" width="210" x="-60" y="-790" as="geometry" />
-        </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-6" parent="3DnboHSC4T8BVolXsLme-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+public&amp;nbsp;" vertex="1">
-          <mxGeometry height="50" width="210" y="44" as="geometry" />
-        </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-7" parent="3DnboHSC4T8BVolXsLme-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" value="" vertex="1">
-          <mxGeometry height="8" width="210" y="94" as="geometry" />
-        </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-8" parent="3DnboHSC4T8BVolXsLme-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+ method(type): type" vertex="1">
-          <mxGeometry height="26" width="210" y="102" as="geometry" />
-        </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-9" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="DialogueTrigger" vertex="1">
           <mxGeometry height="134" width="210" x="-750" y="-843.5" as="geometry" />
         </mxCell>
@@ -316,58 +304,58 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-35" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;[Serializable]&lt;/span&gt;&lt;div&gt;StoryAction&lt;/div&gt;" vertex="1">
-          <mxGeometry height="170" width="280" x="-390" y="-340" as="geometry" />
+          <mxGeometry height="170" width="300" x="40" y="-100" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-36" parent="3DnboHSC4T8BVolXsLme-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+&amp;nbsp;string flagName&lt;div&gt;+ bool boolValue&lt;/div&gt;&lt;div&gt;+&amp;nbsp;int intValue&lt;/div&gt;&lt;div&gt;+&amp;nbsp;float floatValue&lt;/div&gt;&lt;div&gt;+&amp;nbsp;string stringValue&lt;/div&gt;" vertex="1">
-          <mxGeometry height="86" width="280" y="44" as="geometry" />
+          <mxGeometry height="86" width="300" y="44" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-37" parent="3DnboHSC4T8BVolXsLme-35" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" value="" vertex="1">
-          <mxGeometry height="8" width="280" y="130" as="geometry" />
+          <mxGeometry height="8" width="300" y="130" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-38" parent="3DnboHSC4T8BVolXsLme-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+ void ExecuteAction(List&amp;lt;StoryFlag&amp;gt; flags)" vertex="1">
-          <mxGeometry height="32" width="280" y="138" as="geometry" />
+          <mxGeometry height="32" width="300" y="138" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-39" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;[Serializable]&lt;/span&gt;&lt;div&gt;&amp;nbsp;StoryFlag&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="210" x="-60" y="-290" as="geometry" />
+          <mxGeometry height="130" width="300" x="-590" y="-125" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-40" parent="3DnboHSC4T8BVolXsLme-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+ string flagName&amp;nbsp;&lt;div&gt;+&amp;nbsp;bool isActive&lt;/div&gt;&lt;div&gt;+&amp;nbsp;int intValue&lt;/div&gt;&lt;div&gt;+ float floatValue&lt;/div&gt;&lt;div&gt;+&amp;nbsp;string stringValue&lt;/div&gt;" vertex="1">
-          <mxGeometry height="86" width="210" y="44" as="geometry" />
+          <mxGeometry height="86" width="300" y="44" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-43" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 12px; font-weight: 400;&quot;&gt;[enum ]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 12px;&quot;&gt;DialogueSide&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="210" x="-310" y="-140" as="geometry" />
+          <mxGeometry height="90" width="300" x="-500" y="120" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-44" parent="3DnboHSC4T8BVolXsLme-43" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+Solo&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+Both&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="46" width="210" y="44" as="geometry" />
+          <mxGeometry height="46" width="300" y="44" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-45" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;[Serializable]&lt;/span&gt;&lt;div&gt;DialogueCharacter&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="210" x="-60" y="-140" as="geometry" />
+          <mxGeometry height="100" width="300" x="-130" y="160" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-46" parent="3DnboHSC4T8BVolXsLme-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+ string name&amp;nbsp;&lt;div&gt;+&amp;nbsp;Sprite icon&lt;/div&gt;&lt;div&gt;+&amp;nbsp;Sprite icon2&lt;/div&gt;" vertex="1">
-          <mxGeometry height="56" width="210" y="44" as="geometry" />
+          <mxGeometry height="56" width="300" y="44" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-47" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;[Serializable]&lt;/span&gt;&lt;div&gt;DialogueLine&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="210" x="185" y="-140" as="geometry" />
+          <mxGeometry height="130" width="300" x="-280" y="-90" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-48" parent="3DnboHSC4T8BVolXsLme-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+ DialogueSide side&lt;div&gt;+&amp;nbsp;DialogueCharacter character&lt;/div&gt;&lt;div&gt;+&amp;nbsp;string line&lt;/div&gt;&lt;div&gt;+&amp;nbsp;bool hasChoices&lt;/div&gt;&lt;div&gt;+ List&amp;lt;DialogueChoice&amp;gt; choices&lt;/div&gt;" vertex="1">
-          <mxGeometry height="86" width="210" y="44" as="geometry" />
+          <mxGeometry height="86" width="300" y="44" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-49" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;[Serializable]&lt;/span&gt;&lt;div&gt;DialogueChoice&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="210" x="-310" y="-24" as="geometry" />
+          <mxGeometry height="120" width="300" x="-70" y="-300" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-50" parent="3DnboHSC4T8BVolXsLme-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+ string choiceText&lt;div&gt;+&amp;nbsp;List&amp;lt;StoryAction&amp;gt; consequences&lt;/div&gt;&lt;div&gt;+&amp;nbsp;DialoguesObject nextDialogue&lt;/div&gt;&lt;div&gt;+&amp;nbsp;EventData triggerEvent&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="76" width="210" y="44" as="geometry" />
+          <mxGeometry height="76" width="300" y="44" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-51" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;[Serializable]&lt;/span&gt;&lt;div&gt;&amp;nbsp;DialogueText&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="210" x="-70" y="-10" as="geometry" />
+          <mxGeometry height="80" width="300" x="-430" y="-320" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-52" parent="3DnboHSC4T8BVolXsLme-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;div&gt;+&amp;nbsp;List&amp;lt;DialogueLine&amp;gt; dialogueLines&lt;/div&gt;" vertex="1">
-          <mxGeometry height="36" width="210" y="44" as="geometry" />
+          <mxGeometry height="36" width="300" y="44" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-53" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;CreateAssetMenu&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;div&gt;DialoguesObject&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="210" x="185" y="10" as="geometry" />
+          <mxGeometry height="70" width="300" x="-110" y="-430" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-54" parent="3DnboHSC4T8BVolXsLme-53" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="+&amp;nbsp;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;List&amp;lt;DialogueLine&amp;gt; lines&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="26" width="210" y="44" as="geometry" />
+          <mxGeometry height="26" width="300" y="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
