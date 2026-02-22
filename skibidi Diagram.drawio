@@ -346,7 +346,7 @@
         <mxCell id="3DnboHSC4T8BVolXsLme-56" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=11;strokeWidth=3;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;" target="3DnboHSC4T8BVolXsLme-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3DnboHSC4T8BVolXsLme-64" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" target="3DnboHSC4T8BVolXsLme-43">
+        <mxCell id="3DnboHSC4T8BVolXsLme-64" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3DnboHSC4T8BVolXsLme-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;dashed=1;" target="3DnboHSC4T8BVolXsLme-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3DnboHSC4T8BVolXsLme-47" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;[Serializable]&lt;/span&gt;&lt;div&gt;DialogueLine&lt;/div&gt;" vertex="1">
